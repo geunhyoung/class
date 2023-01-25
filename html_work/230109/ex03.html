@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="p1">
+    </div>
+    <div id="p2">
+
+    </div>
+    <style>
+        #p1{
+            width: 100px;height: 100px;background-color: red;
+            transition-duration: 3s;
+        }
+        #p2{
+            width: 100px; height: 100px; background-color: blue;
+            transition-duration: 3s;
+        }
+        #p1:hover~#p2{
+            width: 300px;
+        }
+    </style>
+</body>
+</html>
+<!--안배운거지만 미리 맛보기  리엑트  프론트 개발-->
+<script>
+    const $p1=document.getElementById('p1');
+    const $p2=document.getElementById('p2');
+    console.log($p1);
+    console.log($p2);
+    $p1.addEventListener('click',()=>{
+        alert('$p1에 마우스를 클릭함');
+        $p1.style.setProperty('height','200px');
+    })
+
+</script>

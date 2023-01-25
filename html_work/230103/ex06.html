@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{ counter-increment: bb;}
+        p::before{content:counter(bb)".";}
+        p::after{
+            content: "아무거나" attr(aa)"page";
+            font-size: 2rem;
+            color: red;
+        }
+
+        p::first-letter{
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor</h1>
+    <p aa="52">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam animi vero impedit maxime expedita, quasi laboriosam recusandae magnam rem! Voluptates reiciendis eveniet nam, magni delectus nostrum culpa ratione asperiores deleniti.</p>
+    <p aa="273">Lorem ipsum dolor sit amet consectetur adipisicing elit. A id provident numquam fugiat quisquam veritatis quidem accusantium alias laborum modi. Placeat exercitationem ullam quidem corporis nesciunt provident sapiente maiores quae.</p>
+
+</body>
+</html>

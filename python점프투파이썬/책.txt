@@ -1,0 +1,11 @@
+점프투파이썬
+https://wikidocs.net/4307
+
+pyqt5
+https://wikidocs.net/22023
+
+qtDesign pyqt5
+https://wikidocs.net/35479
+c , 파이썬 등등 참고하기 좋은 사이트
+http://www.tcpschool.com/c/intro
+https://www.acmicpc.net/

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Lilita+One&display=swap');
+*{
+    font-family: 'Lilita One','Jua', arial, cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+body{
+    position:relative;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

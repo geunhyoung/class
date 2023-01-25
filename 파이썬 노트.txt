@@ -1,0 +1,30 @@
+주석 #  '''   '''
+
+리스트 [] 튜플 () 딕셔너리 {1:'hi'}
+
+cmd에  python 입력
+
+////////221214
+
+++ 가 파이썬에는 없다
+
+print(f"39r32hefhewhowehohge \
+qehwuewq{self.name}gweh")  
+
+
+파이썬 엑셀 쓰기 위한 준비
+cmd
+conda activate base
+pip install openpyxl
+
+
+컨트롤 스페이스 => 변수,함수 불러오기
+
+
+pip install opencv-python
+pip install matplotlib
+pip install beautifulsoup4
+pip install requests
+
+import xxxx   > 오류 xxxx 뜨면
+pip install xxxx 입력

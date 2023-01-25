@@ -1,0 +1,52 @@
+git branch -m main
+
+
+User@DESKTOP-HO3ILCH MINGW64 /d/docs (main)
+$ git push origin main
+
+
+
+User@DESKTOP-HO3ILCH MINGW64 /d/mainbranch
+$ git clone https://github.com/geunhyoung/mypage.git
+
+
+
+서버에 파일 올리기
+User@DESKTOP-HO3ILCH MINGW64 /d/docs (main)
+$ git add index.html
+
+User@DESKTOP-HO3ILCH MINGW64 /d/docs (main)
+$ git commit -m index.html
+[main c29ce0b] index.html
+ 1 file changed, 2 insertions(+)
+
+User@DESKTOP-HO3ILCH MINGW64 /d/docs (main)
+$ git push origin main
+
+
+
+
+
+
+
+
+
+
+
+파일안에서 깃 베쉬
+User@DESKTOP-HO3ILCH MINGW64 /d/docs (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+User@DESKTOP-HO3ILCH MINGW64 /d/docs (main)
+$ ls
+README.md  a.txt  aa.txt  index.html
+
+User@DESKTOP-HO3ILCH MINGW64 /d/docs (main)
+$ git add .
+
+User@DESKTOP-HO3ILCH MINGW64 /d/docs (main)
+$ git commit -m "third"

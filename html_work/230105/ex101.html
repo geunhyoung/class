@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #a{
+            margin: 0 auto;
+            height: 100vh;
+            width: 600px;
+            background-color: #cfcfcf;
+            background-image: url('../images/aa.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: bottom;
+        }
+        #a>h1{
+            margin: 0;
+            background-color: #aaa;
+        }
+        #b{
+            background-color: #c9c9c9;
+            /*  */
+            position: relative;
+            height: 150px;
+        }
+        #rightup{
+            top: 1rem;
+            left: 0;
+            background-color: #ddd;
+            /*  */
+            position: absolute;
+        }
+        #leftdown{
+            bottom: 0;
+            right: 0;
+            background-color: #ddd;
+            /*  */
+            position: absolute;
+        }
+        #b2{
+            /*  */
+            overflow: hidden;
+        }
+        #sub_b{
+            float: right;
+        }
+        #sub_b>ul>li{
+            display: inline-block;
+            background-color: #ddd;
+            margin: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="a">
+        <h1>header -1</h1>
+        <div id="b">
+            <div id="rightup">
+                <h1>오른쪽이 아닌 왼쪽위에</h1>    
+            </div>
+        </div>
+        <div id="c">
+            <div id="leftdown">
+                <h1>왼쪽밑이 아닌 오른쪽 밑에</h1>
+            </div>
+        </div>
+        </div>
+        <div id="b2">
+            <div id="sub_b">
+                <ul>
+                    <li>셋</li>
+                    <li>둘</li>
+                    <li>하나</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

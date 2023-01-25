@@ -1,0 +1,65 @@
+이해하면서 동시에 외울려고
+공부를 하면.. 안됨
+
+
+선택자
+*{전부다
+태그 선택자   태그 h1
+.   클래스
+#  아이디
+
+
+padding 선을 기준으로 안쪽여백
+margin 선을 기준으로 바깥쪽 여백
+
+
+
+자식태그에 float 속성을 주면
+부모태그에 overflow: hidden 줘야한다.
+
+id는 html 문서에서 유일하게 
+한개만 존재해야한다
+
+
+
+/////설치 (파이참 ////
+
+
+https://chromedriver.chromium.org/downloads
+여기서 자신의 크롬버전 클릭 win 32 bit 다운 
+.exe. 파일 파일참 파일 에 넣기 230102 
+pip install
+selenium 
+
+tttt
+
+
+세로태그
+display
+
+
+230104///
+
+1div 자식태그의 position absolute 를 주면
+부모태그의 height position relative를 줘야한다.
+
+2.자식태그의 float left를 주면
+부모태그의 overflow hidden을 줘야한다.
+
+3. hover checked 다른 것을 변경 할수 있다.
+ ->javasciprt 를 알아야하는데...
+
+
+
+
+////alt shift F  라인정렬
+
+
+1.position absoliute, => relative ,height
+
+2.float left   overflow hidden
+
+3
+flex...
+  justify-content 가로정렬
+ align-items 세로정렬
